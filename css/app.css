@@ -1,0 +1,23 @@
+.branco{
+    background:#ffffff;
+}
+
+#ajax_msg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 300px;
+    z-index: 1;
+    text-align: center;
+    border-radius: 2px;
+    display: none;
+}
+
+.editar{
+    cursor: pointer;
+}
+
+.editar:hover{
+    background-color: lightyellow;
+    background-size: 100%;
+}
