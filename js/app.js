@@ -11,7 +11,7 @@ $(document).ready(function () {
             url: 'create.php',
             method: 'POST',
             data: formData,
-            sucess: function (data) {
+            success: function (data) {
                 $('#ajax_msg').css("display", "block").delay(3000).slideUp(300).html(data);
                 document.getElementById("create-tarefa").reset();
             }
